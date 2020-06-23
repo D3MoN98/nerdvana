@@ -1,0 +1,62 @@
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: yellow;
+}
+
+::selection {
+    color: black;
+    background: white;
+}
+
+body {
+    background-color: #e71c23;
+}
+
+.intro-about .background-mask .background-mask-bg {
+    background-color: transparent;
+}
+
+.intro-about .img-box {
+    padding: 0;
+}
+
+.client-see .inner .bg {
+    background: url("../images/qoute.jpeg");
+    background-blend-mode: multiply;
+    background-color: #666666;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-news .item-new .image{
+    height: 320px;
+}
+
+/* .our-news .item-new .image img{
+    height: 320px;
+} */
+
+.work-under-header .work-item .item-border{
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.work-under-header .work-item img {
+    transition: transform .5s ease;
+}
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+.work-under-header .work-item:hover img {
+    transform: scale(1.5);
+}
+
+.our-news .item-new .image{
+    overflow: hidden;
+}
+.our-news .item-new .image img{
+    transition: transform .5s ease;
+}
+.our-news .item-new .image:hover img{
+    transform: scale(1.2);
+}
